@@ -43,6 +43,8 @@ class LxUINavigationController: UINavigationController {
             
             var btn=withbutbar("navigationbar_pop", hightImageName: "navigationbar_pop_highlighted", target: self, action: Selector("back"))
             viewController.navigationItem.leftBarButtonItem=btn
+            
+            viewController.navigationItem.rightBarButtonItem=UIBarButtonItem(title: "more", style: UIBarButtonItemStyle.Done, target: self, action: Selector("backroot"))
         }
         super.pushViewController(viewController, animated: true)
     }
@@ -50,6 +52,9 @@ class LxUINavigationController: UINavigationController {
     func back(){
         self.popViewControllerAnimated(true)
         //println("88888")
+    }
+    func backroot(){
+        self.popToRootViewControllerAnimated(true)
     }
     func withbutbar(ImageName:String,hightImageName:String,target:AnyObject,action:Selector) -> UIBarButtonItem{
         let btn=UIButton()
