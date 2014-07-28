@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window=UIWindow()
         self.window!.frame=UIScreen.mainScreen().bounds
         
-        self.window!.rootViewController=UITabBarController()
+        self.window!.rootViewController=LvUITabBarController()
         self.window!.makeKeyAndVisible()
         
         return true

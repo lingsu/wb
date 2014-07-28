@@ -77,6 +77,9 @@
 		09B82B641986109200C070AD /* timeline_group_visible_button_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09B82B221986109200C070AD /* timeline_group_visible_button_background@2x.png */; };
 		09B82B651986109200C070AD /* timeline_image_gif@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09B82B231986109200C070AD /* timeline_image_gif@2x.png */; };
 		09B82B661986109200C070AD /* timeline_retweet_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09B82B241986109200C070AD /* timeline_retweet_background@2x.png */; };
+		09B82B6819861BD200C070AD /* LvUITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B82B6719861BD200C070AD /* LvUITabBarController.swift */; };
+		09B82B6A19861C2D00C070AD /* LvHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B82B6919861C2D00C070AD /* LvHomeTableViewController.swift */; };
+		09B82B6C19861C3A00C070AD /* LvMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B82B6B19861C3A00C070AD /* LvMessageTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,6 +167,9 @@
 		09B82B221986109200C070AD /* timeline_group_visible_button_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "timeline_group_visible_button_background@2x.png"; path = "images/timeline_group_visible_button_background@2x.png"; sourceTree = SOURCE_ROOT; };
 		09B82B231986109200C070AD /* timeline_image_gif@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "timeline_image_gif@2x.png"; path = "images/timeline_image_gif@2x.png"; sourceTree = SOURCE_ROOT; };
 		09B82B241986109200C070AD /* timeline_retweet_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "timeline_retweet_background@2x.png"; path = "images/timeline_retweet_background@2x.png"; sourceTree = SOURCE_ROOT; };
+		09B82B6719861BD200C070AD /* LvUITabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LvUITabBarController.swift; sourceTree = "<group>"; };
+		09B82B6919861C2D00C070AD /* LvHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LvHomeTableViewController.swift; sourceTree = "<group>"; };
+		09B82B6B19861C3A00C070AD /* LvMessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LvMessageTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +213,9 @@
 			children = (
 				09B82A5E19860FAC00C070AD /* images */,
 				09B82A41198609B100C070AD /* AppDelegate.swift */,
+				09B82B6919861C2D00C070AD /* LvHomeTableViewController.swift */,
+				09B82B6719861BD200C070AD /* LvUITabBarController.swift */,
+				09B82B6B19861C3A00C070AD /* LvMessageTableViewController.swift */,
 				09B82A43198609B100C070AD /* ViewController.swift */,
 				09B82A48198609B100C070AD /* Images.xcassets */,
 				09B82A3F198609B100C070AD /* Supporting Files */,
@@ -476,8 +485,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B82B6A19861C2D00C070AD /* LvHomeTableViewController.swift in Sources */,
 				09B82A44198609B100C070AD /* ViewController.swift in Sources */,
+				09B82B6819861BD200C070AD /* LvUITabBarController.swift in Sources */,
 				09B82A42198609B100C070AD /* AppDelegate.swift in Sources */,
+				09B82B6C19861C3A00C070AD /* LvMessageTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
