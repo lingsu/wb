@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09AD900819868DA000519E1A /* LxUINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AD900719868DA000519E1A /* LxUINavigationController.swift */; };
 		09B82A42198609B100C070AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B82A41198609B100C070AD /* AppDelegate.swift */; };
 		09B82A44198609B100C070AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B82A43198609B100C070AD /* ViewController.swift */; };
 		09B82A49198609B100C070AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B82A48198609B100C070AD /* Images.xcassets */; };
@@ -93,6 +94,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09AD900719868DA000519E1A /* LxUINavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LxUINavigationController.swift; sourceTree = "<group>"; };
 		09B82A3C198609B100C070AD /* wb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B82A40198609B100C070AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09B82A41198609B100C070AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 				09B82A41198609B100C070AD /* AppDelegate.swift */,
 				09B82B6919861C2D00C070AD /* LvHomeTableViewController.swift */,
 				09B82B6719861BD200C070AD /* LvUITabBarController.swift */,
+				09AD900719868DA000519E1A /* LxUINavigationController.swift */,
 				09B82B6B19861C3A00C070AD /* LvMessageTableViewController.swift */,
 				09B82A43198609B100C070AD /* ViewController.swift */,
 				09B82A48198609B100C070AD /* Images.xcassets */,
@@ -488,6 +491,7 @@
 				09B82B6A19861C2D00C070AD /* LvHomeTableViewController.swift in Sources */,
 				09B82A44198609B100C070AD /* ViewController.swift in Sources */,
 				09B82B6819861BD200C070AD /* LvUITabBarController.swift in Sources */,
+				09AD900819868DA000519E1A /* LxUINavigationController.swift in Sources */,
 				09B82A42198609B100C070AD /* AppDelegate.swift in Sources */,
 				09B82B6C19861C3A00C070AD /* LvMessageTableViewController.swift in Sources */,
 			);
@@ -664,6 +668,7 @@
 				09B82A5A198609B100C070AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09B82A5B198609B100C070AD /* Build configuration list for PBXNativeTarget "wbTests" */ = {
 			isa = XCConfigurationList;
@@ -672,6 +677,7 @@
 				09B82A5D198609B100C070AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

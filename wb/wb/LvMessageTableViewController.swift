@@ -36,7 +36,40 @@ class LvMessageTableViewController: UITableViewController {
     override func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return 0
+        println("20")
+        return 20
+    }
+    
+    
+    let cellname="cell"
+    
+    override func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
+        
+        //let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as UITableViewCell
+        
+        
+        //let cell=UITableViewCell()
+        
+        var cell = tableView.dequeueReusableCellWithIdentifier(cellname) as? UITableViewCell
+        
+        if !cell {
+            cell=UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: cellname)
+        }
+        
+        
+        
+        cell!.textLabel.text="sssssssssssssssss\(indexPath.row)"
+        
+        
+        
+        return cell
+    }
+    
+    override func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
+        let newVc=UITableViewController()
+        newVc.view.backgroundColor=UIColor.redColor()
+        newVc.title="abc"
+        self.navigationController.pushViewController(newVc, animated: true)
     }
 
     /*
